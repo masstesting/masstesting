@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+  <html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Большое тестирование </title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/buttons.css">
+    <link rel="stylesheet" href="css/instructions-panel.css">
+    <script type="text/javascript">
+      document.onmousedown = function() { 
+        document.body.setAttribute("class", "is-highlighted"); 
+      } 
+      document.onmouseup = function() { 
+        document.body.setAttribute("class", ""); 
+      } 
+    </script> 
+    <style> 
+      html, body { 
+        padding: 0; 
+        margin: 0; 
+      } 
+      body { 
+        text-align: center; 
+      } 
+      a { 
+        position: absolute; 
+        z-index: 100; 
+      } 
+      body.is-highlighted a { 
+        background-color: #0000ff; 
+        opacity: .2; 
+      } 
+      main { 
+        position: relative; 
+        display: inline-block; 
+      } 
+    </style> 
+  </head>
+  <body><main>
+<!-- 10 -->
+<img src="img/10.png">
+</main>
+
+  <script src="js/utils.js" type="application/javascript"></script>
+  <script src="js/load.js" type="application/javascript"></script>
+  <script src="js/create-instructions.js" type="application/javascript"></script>
+  <script src="js/fill-instructions.js" type="application/javascript"></script>
+  
+</body></html>

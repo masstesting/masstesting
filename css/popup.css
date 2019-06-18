@@ -1,0 +1,32 @@
+.popup-time {
+  background: url(img/time.png) no-repeat 50% 0;
+  width: 257px;
+  height: 157px;
+  position: absolute;
+  top: 150px;
+  right: 0;
+}
+
+.popup-time-close {
+  position: absolute;
+  opacity: 0.5;
+  width: 20px;
+  height: 20px;
+  top: 21px;
+  right: 13px;
+  cursor: pointer;
+}
+
+.popup-time-cancel {
+  position: absolute;
+  opacity: 0.5;
+  width: 80px;
+  height: 20px;
+  top: 115px;
+  right: 29px;
+  cursor: pointer;
+}
+
+.invisible {
+  display: none;
+}
