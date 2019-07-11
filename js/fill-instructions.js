@@ -2,7 +2,7 @@
 
 window.fillInstructions = (function() {
   var panelText = document.querySelector('.instructions-text');
-  var DATA_URL = 'https://api.myjson.com/bins/occ5p';
+  var DATA_URL = 'https://api.myjson.com/bins/wycyv';
   var instructions = [];
   var currentInstruction;
   var textDataIndex = 0;
