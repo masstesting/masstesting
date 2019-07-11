@@ -10,7 +10,7 @@ window.createInstructionsPanel = (function() {
     action.classList.add('instructions-action');
 
     var link = document.createElement('a');
-    link.href = 'https://forms.kontur.ru/form/masstesting';
+    link.href = 'https://kontur.typeform.com/to/c8t11a';
     link.target = '_blank';
     link.setAttribute('onclick', "yaCounter45458382.reachGoal('feedback-click'); return true;");
     link.appendChild(button);
